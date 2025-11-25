@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Array_list {
 	
@@ -33,7 +35,11 @@ public class Array_list {
 	//example
 		
 		ArrayList<Integer> a =  new ArrayList<Integer>();
-		a.add(1,2,3,4,5);
+		a.addAll(Arrays.asList(1, 2, 3, 4, 5));
+		
+		
+		
+		System.out.println(a);
 
 	}
 
