@@ -66,10 +66,12 @@ public class Git_tutorial {
 	 * git remote set-url origin <url> : to change repository to another repository 
 	 * 
 	 * git tag<tagname> it will label or mark for specific commit 
-	 * git tag -d <name> : it will delete the tage
+	 * git tag -d <name> : it will delete the tag 
 	 * 
-
+	 * git tag process : add file >> commit with message > add tag name > Push to origin 
 	 * 
+	 * git stash :  Sometimes you need to quickly switch task or fix a bug but ont ready to commit your work 
+	 *              git stash le you save your uncommented changes a return to clean working directory 
 	 * 
 	 * 
 	 * 
